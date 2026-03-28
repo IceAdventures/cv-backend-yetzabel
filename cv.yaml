@@ -1,0 +1,51 @@
+name: Ventura Yetzabel Andrade Zúñiga
+title: Desarrollador Backend
+
+contact:
+  email: yetzabelandrade@gmail.com
+  phone: 2351129029
+  location: Veracruz, México
+
+summary: >
+  Desarrollador Backend con más de 2 años de experiencia en Java y Spring Boot, especializado en el desarrollo de APIs REST y arquitecturas basadas en microservicios. Experiencia en modelado de datos, optimización de consultas SQL, documentación de APIs con Swagger/OpenAPI y despliegue de servicios en Kubernetes. Enfocado en la construcción de soluciones escalables, mantenibles y de alto rendimiento.
+
+
+experience:
+  - company: Coppel
+    role: Programador
+    years: 2023 - 2026
+    responsibilities:
+      - Desarrollo de APIs REST con Spring Boot bajo arquitectura en capas
+      - Diseño e implementación de microservicios
+      - Documentación de APIs utilizando Swagger/OpenAPI
+      - Modelado de bases de datos en PostgreSQL
+      - Optimización de consultas SQL para mejorar el rendimiento
+      - Desarrollo de módulos completos en C# (backend y frontend)
+      - Consumo de APIs REST
+      - Desarrollo de interfaces en WPF y UWP con patrón MVVM
+      - Implementación de componentes de negocio (liquidación de empleados, búsqueda de clientes)
+      - Integración de servicios backend con aplicaciones web y de escritorio
+      - Despliegue y gestión de servicios en Kubernetes
+      - Implementación de pipelines de CI/CD
+      - Uso de SonarQube para análisis de calidad, detección de vulnerabilidades y mejora de código
+
+  - company: HostyWeb
+    role: Diseñador UI/UX
+    years: 2022 - 2023
+    responsibilities:
+      - Diseño de modelos entidad–relación
+      - Elaboración de diagramas UML
+      - Prototipado de interfaces en Figma
+
+education:
+  - school: Instituto Tecnológico Superior de Misantla
+    role: Ingeniero en Sistemas Computacionales
+    years: 2016 - 2022      
+
+skills:
+  languages: [Java, C#, SQL, JavaScript, TypeScript, Bash]
+  backend: [Spring Boot, APIs REST, Microservicios, Arquitectura en capas, Swagger/OpenAPI ]
+  frontend: [Angular, WPF, UWP, MVVM]
+  basesdedatos: [PostgreSQL, Modelado de datos, Optimización SQL]
+  tools: [Git, Docker, Kubernetes, Postman, SonarQube]
+  desing: [Figma, Miro, Wireframing, Prototipado, Adobe Illustrator]

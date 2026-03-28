@@ -1,1 +1,60 @@
-ddd
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{name}}</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    h1 { margin-bottom: 5px; }
+    .section { margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+<h1>{{name}}</h1>
+<p>{{title}}</p>
+
+<div class="section">
+  <h2>Contacto</h2>
+  <p>{{contact.email}} | {{contact.phone}} | {{contact.location}}</p>
+</div>
+
+<div class="section">
+  <h2>Resumen</h2>
+  <p>{{summary}}</p>
+</div>
+
+<div class="section">
+  <h2>Experiencia</h2>
+  {{#each experience}}
+    <p><b>{{role}} — {{company}}</b> ({{years}})</p>
+    <ul>
+      {{#each responsibilities}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  {{/each}}
+</div>
+
+<div class="section">
+  <h2>Educación</h2>
+  {{#each education}}
+    <p><b>{{role}} — {{school}}</b> ({{years}})</p>
+  {{/each}}
+</div>
+
+
+<div class="section">
+  <h2>Habilidades Tecnicas</h2>
+  <p><b>Lenguajes:</b> {{skills.languages}}</p>
+  <p><b>Backend:</b> {{skills.backend}}</p>
+  <p><b>Frontend:</b> {{skills.frontend}}</p>
+  <p><b>Bases de Datos:</b> {{skills.basesdedatos}}</p>
+  <p><b>Herramientas:</b> {{skills.tools}}</p>
+  <p><b>UI/UX:</b> {{skills.desing}}</p>
+
+
+</div>
+
+</body>
+</html>
