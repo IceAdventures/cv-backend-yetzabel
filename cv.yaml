@@ -8,7 +8,7 @@ contact:
   location: Veracruz, México
 
 summary: >
-  Desarrollador Backend con más de 2 años de experiencia en Java y Spring Boot, especializado en el desarrollo de APIs REST y arquitecturas basadas en microservicios. Experiencia en modelado de datos, optimización de consultas SQL, documentación de APIs con Swagger/OpenAPI y despliegue de servicios en Kubernetes. Enfocado en la construcción de soluciones escalables, mantenibles y de alto rendimiento.
+  Desarrollador Backend con 3 años de experiencia en Java y Spring Boot, especializado en el desarrollo de APIs REST y arquitecturas basadas en microservicios. Experiencia en modelado de datos, optimización de consultas SQL, documentación de APIs con Swagger/OpenAPI y despliegue de servicios en Kubernetes. Enfocado en la construcción de soluciones escalables, mantenibles y de alto rendimiento mediante contenedorización con Docker y Podman.
 
 
 experience:
@@ -16,14 +16,15 @@ experience:
     role: Programador
     years: 2023 - 2026
     responsibilities:
-      - Desarrollo de APIs REST con Spring Boot bajo arquitectura en capas
+      - Desarrollo de APIs REST con Spring Boot bajo arquitectura en capas gestionando dependencias y construcción del proyecto con Maven
       - Diseño e implementación de microservicios
       - Documentación de APIs utilizando Swagger/OpenAPI
       - Modelado de bases de datos en PostgreSQL
       - Optimización de consultas SQL para mejorar el rendimiento
       - Desarrollo de módulos completos en C# (backend y frontend)
-      - Consumo de APIs REST
+      - Consumo e integración de APIs REST en aplicaciones, con validación y pruebas de endpoints utilizando Postman y Bruno
       - Desarrollo de interfaces en WPF y UWP con patrón MVVM
+      - Desarrollo en C# bajo el ecosistema .NET para consumo de APIs y construcción de interfaces (WPF/UWP)
       - Implementación de componentes de negocio
       - Integración de servicios backend con aplicaciones web y de escritorio
       - Despliegue y gestión de servicios en Kubernetes
@@ -45,8 +46,8 @@ education:
 
 skills:
   languages: [Java, C#, SQL, JavaScript, TypeScript, Bash]
-  backend: [Spring Boot, APIs REST, Microservicios, Arquitectura en capas, Swagger/OpenAPI ]
+  backend: [Spring Boot, APIs REST, Microservicios, Arquitectura en capas, Swagger/OpenAPI, .NET / .NET Core]
   frontend: [Angular, WPF, UWP, MVVM]
   basesdedatos: [PostgreSQL, Modelado de datos, Optimización SQL]
-  tools: [Git, Docker, Kubernetes, Postman, SonarQube]
+  tools: [Git, Docker, Kubernetes, Postman, SonarQube, Maven]
   desing: [Figma, Miro, Wireframing, Prototipado, Adobe Illustrator]
