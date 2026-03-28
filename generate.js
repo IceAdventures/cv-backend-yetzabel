@@ -16,6 +16,6 @@ const template = Handlebars.compile(templateHtml);
 const result = template(data);
 
 // Guardar resultado
-fs.writeFileSync("output.html", result);
+fs.writeFileSync("index.html", result);
 
-console.log("CV generado: output.html");
+console.log("CV generado: index.html");
