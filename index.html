@@ -4,30 +4,104 @@
   <meta charset="UTF-8">
   <title>Ventura Yetzabel Andrade Zúñiga</title>
   <style>
-    body { font-family: Arial; margin: 40px; }
-    h1 { margin-bottom: 5px; }
-    .section { margin-top: 20px; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+      margin: 40px auto;
+      max-width: 800px;
+      color: #111;
+      background: #fff;
+      line-height: 1.7;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 2px;
+      font-weight: 600;
+    }
+
+    .title {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .divider {
+      border-bottom: 1px solid #e5e5e5;
+      margin: 20px 0;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    h2 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 6px 0;
+    }
+
+    ul {
+      margin: 8px 0 15px 18px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+
+    .sub {
+      color: #777;
+      font-size: 13px;
+    }
+
+    b {
+      font-weight: 500;
+    }
+
   </style>
 </head>
 <body>
 
 <h1>Ventura Yetzabel Andrade Zúñiga</h1>
-<p>Desarrollador Backend</p>
+<div class="title">Desarrollador Backend</div>
 
-<div class="section">
-  <h2>Contacto</h2>
-  <p>yetzabelandrade@gmail.com | 2351129029 | Veracruz, México</p>
+<div class="contact">
+  https://iceadventures.github.io/cv-backend-yetzabel/ | yetzabelandrade@gmail.com | 2351129029 | Veracruz, México
 </div>
 
 <div class="section">
   <h2>Resumen</h2>
+  <div class="divider"></div>
   <p>Desarrollador Backend con más de 2 años de experiencia en Java y Spring Boot, especializado en el desarrollo de APIs REST y arquitecturas basadas en microservicios. Experiencia en modelado de datos, optimización de consultas SQL, documentación de APIs con Swagger/OpenAPI y despliegue de servicios en Kubernetes. Enfocado en la construcción de soluciones escalables, mantenibles y de alto rendimiento.
 </p>
 </div>
 
 <div class="section">
   <h2>Experiencia</h2>
-    <p><b>Programador — Coppel</b> (2023 - 2026)</p>
+  <div class="divider"></div>
+
+    <div class="item-header">
+      <span>Programador — Coppel</span>
+      <span class="sub">2023 - 2026</span>
+    </div>
     <ul>
         <li>Desarrollo de APIs REST con Spring Boot bajo arquitectura en capas</li>
         <li>Diseño e implementación de microservicios</li>
@@ -43,7 +117,10 @@
         <li>Implementación de pipelines de CI/CD</li>
         <li>Uso de SonarQube para análisis de calidad, detección de vulnerabilidades y mejora de código</li>
     </ul>
-    <p><b>Diseñador UI/UX — HostyWeb</b> (2022 - 2023)</p>
+    <div class="item-header">
+      <span>Diseñador UI/UX — HostyWeb</span>
+      <span class="sub">2022 - 2023</span>
+    </div>
     <ul>
         <li>Diseño de modelos entidad–relación</li>
         <li>Elaboración de diagramas UML</li>
@@ -53,19 +130,24 @@
 
 <div class="section">
   <h2>Educación</h2>
-    <p><b>Ingeniero en Sistemas Computacionales — Instituto Tecnológico Superior de Misantla</b> (2016 - 2022)</p>
+  <div class="divider"></div>
+
+    <div class="item-header">
+      <span>Ingeniero en Sistemas Computacionales — Instituto Tecnológico Superior de Misantla</span>
+      <span class="sub">2016 - 2022</span>
+    </div>
 </div>
 
-
 <div class="section">
-  <h2>Habilidades Tecnicas</h2>
+  <h2>Habilidades Técnicas</h2>
+  <div class="divider"></div>
+
   <p><b>Lenguajes:</b> Java,C#,SQL,JavaScript,TypeScript,Bash</p>
   <p><b>Backend:</b> Spring Boot,APIs REST,Microservicios,Arquitectura en capas,Swagger/OpenAPI</p>
   <p><b>Frontend:</b> Angular,WPF,UWP,MVVM</p>
   <p><b>Bases de Datos:</b> PostgreSQL,Modelado de datos,Optimización SQL</p>
   <p><b>Herramientas:</b> Git,Docker,Kubernetes,Postman,SonarQube</p>
   <p><b>UI/UX:</b> Figma,Miro,Wireframing,Prototipado,Adobe Illustrator</p>
-
 
 </div>
 
