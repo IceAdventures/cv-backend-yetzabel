@@ -76,6 +76,26 @@
       font-weight: 500;
     }
 
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .skill-block {
+      margin-bottom: 10px;
+    }
+
+    .skill-block b {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .skill-block ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
   </style>
 </head>
 <body>
@@ -84,7 +104,10 @@
 <div class="title">{{title}}</div>
 
 <div class="contact">
-  {{contact.github}} | {{contact.email}} | {{contact.phone}} | {{contact.location}}
+  <span><b>Portafolio:</b> {{contact.github}}</span> ·
+  <span><b>Email:</b> {{contact.email}}</span> ·
+  <span><b>Tel:</b> {{contact.phone}}</span> ·
+  <span>{{contact.location}}</span>
 </div>
 
 <div class="section">
@@ -126,13 +149,63 @@
   <h2>Habilidades Técnicas</h2>
   <div class="divider"></div>
 
-  <p><b>Lenguajes:</b> {{skills.languages}}</p>
-  <p><b>Backend:</b> {{skills.backend}}</p>
-  <p><b>Frontend:</b> {{skills.frontend}}</p>
-  <p><b>Bases de Datos:</b> {{skills.basesdedatos}}</p>
-  <p><b>Herramientas:</b> {{skills.tools}}</p>
-  <p><b>UI/UX:</b> {{skills.desing}}</p>
+  <div class="skills-grid">
 
+    <div class="skill-block">
+      <b>Lenguajes</b>
+      <ul>
+        {{#each skills.languages}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Backend</b>
+      <ul>
+        {{#each skills.backend}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Frontend</b>
+      <ul>
+        {{#each skills.frontend}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Bases de Datos</b>
+      <ul>
+        {{#each skills.basesdedatos}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Herramientas</b>
+      <ul>
+        {{#each skills.tools}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>UI/UX</b>
+      <ul>
+        {{#each skills.desing}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+  </div>
 </div>
 
 </body>

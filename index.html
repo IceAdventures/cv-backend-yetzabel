@@ -76,6 +76,26 @@
       font-weight: 500;
     }
 
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .skill-block {
+      margin-bottom: 10px;
+    }
+
+    .skill-block b {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .skill-block ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
   </style>
 </head>
 <body>
@@ -84,7 +104,10 @@
 <div class="title">Desarrollador Backend</div>
 
 <div class="contact">
-  https://iceadventures.github.io/cv-backend-yetzabel/ | yetzabelandrade@gmail.com | 2351129029 | Veracruz, México
+  <span><b>Portafolio:</b> https://iceadventures.github.io/cv-backend-yetzabel</span> ·
+  <span><b>Email:</b> yetzabelandrade@gmail.com</span> ·
+  <span><b>Tel:</b> 2351129029</span> ·
+  <span>Veracruz, México</span>
 </div>
 
 <div class="section">
@@ -111,7 +134,7 @@
         <li>Desarrollo de módulos completos en C# (backend y frontend)</li>
         <li>Consumo de APIs REST</li>
         <li>Desarrollo de interfaces en WPF y UWP con patrón MVVM</li>
-        <li>Implementación de componentes de negocio (liquidación de empleados, búsqueda de clientes)</li>
+        <li>Implementación de componentes de negocio</li>
         <li>Integración de servicios backend con aplicaciones web y de escritorio</li>
         <li>Despliegue y gestión de servicios en Kubernetes</li>
         <li>Implementación de pipelines de CI/CD</li>
@@ -142,13 +165,73 @@
   <h2>Habilidades Técnicas</h2>
   <div class="divider"></div>
 
-  <p><b>Lenguajes:</b> Java,C#,SQL,JavaScript,TypeScript,Bash</p>
-  <p><b>Backend:</b> Spring Boot,APIs REST,Microservicios,Arquitectura en capas,Swagger/OpenAPI</p>
-  <p><b>Frontend:</b> Angular,WPF,UWP,MVVM</p>
-  <p><b>Bases de Datos:</b> PostgreSQL,Modelado de datos,Optimización SQL</p>
-  <p><b>Herramientas:</b> Git,Docker,Kubernetes,Postman,SonarQube</p>
-  <p><b>UI/UX:</b> Figma,Miro,Wireframing,Prototipado,Adobe Illustrator</p>
+  <div class="skills-grid">
 
+    <div class="skill-block">
+      <b>Lenguajes</b>
+      <ul>
+          <li>Java</li>
+          <li>C#</li>
+          <li>SQL</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Bash</li>
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Backend</b>
+      <ul>
+          <li>Spring Boot</li>
+          <li>APIs REST</li>
+          <li>Microservicios</li>
+          <li>Arquitectura en capas</li>
+          <li>Swagger/OpenAPI</li>
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Frontend</b>
+      <ul>
+          <li>Angular</li>
+          <li>WPF</li>
+          <li>UWP</li>
+          <li>MVVM</li>
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Bases de Datos</b>
+      <ul>
+          <li>PostgreSQL</li>
+          <li>Modelado de datos</li>
+          <li>Optimización SQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>Herramientas</b>
+      <ul>
+          <li>Git</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>Postman</li>
+          <li>SonarQube</li>
+      </ul>
+    </div>
+
+    <div class="skill-block">
+      <b>UI/UX</b>
+      <ul>
+          <li>Figma</li>
+          <li>Miro</li>
+          <li>Wireframing</li>
+          <li>Prototipado</li>
+          <li>Adobe Illustrator</li>
+      </ul>
+    </div>
+
+  </div>
 </div>
 
 </body>

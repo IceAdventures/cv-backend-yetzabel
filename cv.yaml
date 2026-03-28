@@ -2,7 +2,7 @@ name: Ventura Yetzabel Andrade Zúñiga
 title: Desarrollador Backend
 
 contact:
-  github:  https://iceadventures.github.io/cv-backend-yetzabel/
+  github:  https://iceadventures.github.io/cv-backend-yetzabel
   email: yetzabelandrade@gmail.com
   phone: 2351129029
   location: Veracruz, México
@@ -24,7 +24,7 @@ experience:
       - Desarrollo de módulos completos en C# (backend y frontend)
       - Consumo de APIs REST
       - Desarrollo de interfaces en WPF y UWP con patrón MVVM
-      - Implementación de componentes de negocio (liquidación de empleados, búsqueda de clientes)
+      - Implementación de componentes de negocio
       - Integración de servicios backend con aplicaciones web y de escritorio
       - Despliegue y gestión de servicios en Kubernetes
       - Implementación de pipelines de CI/CD
